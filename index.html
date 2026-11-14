@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b12" />
+  <meta name="description" content="The personal portfolio of Nayon Roy — Graphic Designer and Laboratory Medicine student." />
+  <title>Nayon Roy | Personal Portfolio</title>
+  <style>
+    :root{--bg:#090b12;--panel:#111522;--panel2:#151b2b;--text:#f4f6ff;--muted:#a4adc2;--line:rgba(255,255,255,.09);--accent:#9b8cff;--accent2:#54d6c7;--shadow:0 24px 70px rgba(0,0,0,.35)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,rgba(116,91,255,.17),transparent 28rem),radial-gradient(circle at 0% 35%,rgba(36,190,176,.09),transparent 25rem),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.04em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--text)}.hero{padding:82px 0 54px;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}.eyebrow{color:var(--accent2);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800}.hero h1{font-size:clamp(2.7rem,7vw,5.2rem);line-height:1.03;letter-spacing:-.055em;margin:14px 0}.hero h1 span{background:linear-gradient(100deg,#b7aaff,#69e4d5);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);max-width:620px;font-size:1.05rem}.switcher{display:inline-flex;gap:7px;padding:6px;background:#141929;border:1px solid var(--line);border-radius:14px;margin-top:24px;flex-wrap:wrap}.switcher button{border:0;background:transparent;color:var(--muted);padding:11px 16px;border-radius:10px;font-weight:700;cursor:pointer}.switcher button.active{background:linear-gradient(110deg,#8f7cff,#5a9ff5);color:white;box-shadow:0 8px 24px rgba(120,105,255,.25)}.profile-card{background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}.profile-card:before{content:"";position:absolute;width:220px;height:220px;background:rgba(143,124,255,.18);filter:blur(65px);right:-60px;top:-70px}.avatar{width:142px;height:142px;border-radius:50%;border:2px solid rgba(255,255,255,.25);background:linear-gradient(145deg,#292d45,#151a2a);display:grid;place-items:center;font-size:2.6rem;font-weight:800;color:#c9c1ff;margin:0 auto 18px;position:relative;overflow:hidden}.avatar img{width:100%;height:100%;object-fit:cover}.profile-card h2{text-align:center;margin:0;font-size:1.45rem}.profile-card p{text-align:center;color:var(--muted);margin:5px 0 18px}.mini-tags{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.tag{border:1px solid var(--line);background:rgba(255,255,255,.04);padding:6px 10px;border-radius:99px;color:#d5d9e8;font-size:.78rem}.section{padding:54px 0}.section-head{margin-bottom:25px}.section-head .eyebrow{margin-bottom:5px}.section h2{font-size:clamp(1.8rem,4vw,2.6rem);margin:0;letter-spacing:-.035em}.section-intro{color:var(--muted);max-width:720px;margin:8px 0 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(150deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:22px;transition:.25s transform,.25s border-color}.card:hover{transform:translateY(-4px);border-color:rgba(155,140,255,.5)}.card h3{margin:0 0 8px;font-size:1.05rem}.card p{margin:0;color:var(--muted);font-size:.93rem}.icon{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:rgba(155,140,255,.13);color:#c2b7ff;margin-bottom:14px;font-weight:900}.hidden{display:none!important}.fade{animation:fade .35s ease}@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.info-list{display:grid;gap:10px}.info-row{display:flex;justify-content:space-between;gap:18px;padding:12px 0;border-bottom:1px solid var(--line)}.info-row span:first-child{color:var(--muted)}.info-row span:last-child{text-align:right;overflow-wrap:anywhere}.cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.cert{display:flex;align-items:center;gap:15px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px}.cert-icon{flex:0 0 44px;height:44px;border-radius:12px;display:grid;place-items:center;background:rgba(84,214,199,.12);color:var(--accent2);font-weight:900}.cert h3{font-size:.98rem;margin:0 0 3px}.cert p{font-size:.82rem;color:var(--muted);margin:0}.cert a{display:inline-block;color:#b8adff;font-size:.83rem;margin-top:6px}.cert a:hover{text-decoration:underline}.note{padding:15px 18px;border:1px dashed rgba(155,140,255,.35);border-radius:14px;color:var(--muted);font-size:.9rem;margin-top:18px}.contact-box{background:linear-gradient(120deg,rgba(143,124,255,.16),rgba(84,214,199,.08));border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;align-items:center;justify-content:space-between;gap:20px}.btn{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(110deg,#8f7cff,#579cf2);padding:12px 18px;border-radius:11px;font-weight:800;color:white}.socials{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.socials a{padding:9px 13px;border:1px solid var(--line);border-radius:10px;color:#d5d9e8;font-size:.88rem}.socials a:hover{border-color:var(--accent)}footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem;margin-top:50px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:58px;gap:30px}.profile-card{max-width:460px;width:100%;margin:auto}.grid{grid-template-columns:repeat(2,1fr)}.navlinks{gap:12px;font-size:.82rem}.two-col{grid-template-columns:1fr}}
+    @media(max-width:540px){.wrap{width:min(100% - 28px,1120px)}.nav{height:auto;min-height:68px;align-items:flex-start;padding:18px 0;gap:12px;flex-direction:column}.navlinks{flex-wrap:wrap}.hero{padding:48px 0 30px}.switcher{display:flex}.switcher button{flex:1;padding:10px 12px;font-size:.82rem}.grid,.cert-grid{grid-template-columns:1fr}.contact-box{align-items:flex-start;flex-direction:column}.section{padding:40px 0}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home">NAYON<span>.</span></a>
+    <nav class="navlinks"><a href="#about">About</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main class="wrap" id="home">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Personal Portfolio</div>
+        <h1>Hello, I'm<br><span>Nayon Roy.</span></h1>
+        <p class="lead" id="heroLead">A creative-minded professional building skills in graphic design while pursuing a career in Laboratory Medicine.</p>
+        <div class="switcher" role="tablist" aria-label="Choose profile">
+          <button class="active" id="designTab" role="tab" aria-selected="true" onclick="switchProfile('design')">Graphic Designer</button>
+          <button id="labTab" role="tab" aria-selected="false" onclick="switchProfile('lab')">Laboratory Medicine</button>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <div class="avatar" id="avatar"><img src="profile.png" alt="Nayon Roy profile photo" /></div>
+        <h2>Nayon Roy</h2>
+        <p id="cardRole">Graphic Designer · Fresher</p>
+        <div class="mini-tags" id="cardTags"><span class="tag">Photoshop</span><span class="tag">Illustrator</span><span class="tag">Canva</span></div>
+      </aside>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head"><div class="eyebrow">About Me</div><h2 id="aboutTitle">Creative thinking, visual ideas.</h2><p class="section-intro" id="aboutText">I have been learning and practising graphic design for around one year. I am a fresher, eager to develop my skills, create meaningful visuals and gain professional experience.</p></div>
+      <div class="grid" id="featureGrid">
+        <article class="card"><div class="icon">01</div><h3>Design & Creativity</h3><p>Interested in creating clear, engaging and visually consistent designs.</p></article>
+        <article class="card"><div class="icon">02</div><h3>Design Tools</h3><p>Adobe Photoshop, Adobe Illustrator and Canva.</p></article>
+        <article class="card"><div class="icon">03</div><h3>Design Areas</h3><p>Logo, banner, poster, social media design and photo editing.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="profileDetails">
+      <div class="section-head"><div class="eyebrow">Profile Details</div><h2 id="detailTitle">Graphic Design Profile</h2></div>
+      <div class="two-col">
+        <article class="card"><h3 id="detailCardTitle">Skills & Tools</h3><div class="info-list" id="detailList"><div class="info-row"><span>Software</span><span>Photoshop, Illustrator, Canva</span></div><div class="info-row"><span>Design</span><span>Logos, posters, banners, social media</span></div><div class="info-row"><span>Experience</span><span>Fresher · 1 year of learning and practice</span></div></div></article>
+        <article class="card"><h3>Professional Approach</h3><p id="approachText">I value creativity, continuous learning, attention to detail and clear communication. I am currently building my portfolio and looking forward to opportunities to grow through real projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-head"><div class="eyebrow">Education & Learning</div><h2>Academic Journey</h2><p class="section-intro">My formal studies and ongoing professional development.</p></div>
+      <div class="two-col">
+        <article class="card"><div class="icon">IHT</div><h3>Institute of Health Technology (IHT)</h3><p>Tungipara, Gopalganj, Bangladesh</p><div class="info-list" style="margin-top:14px"><div class="info-row"><span>Department</span><span>Laboratory Medicine</span></div><div class="info-row"><span>Batch</span><span>4th Batch</span></div><div class="info-row"><span>Current Stage</span><span>Internship</span></div></div></article>
+        <article class="card"><div class="icon">HP</div><h3>Continuous Learning</h3><p>Completed five HP LIFE online courses covering critical thinking, AI in business, professional communication, networking and value proposition development.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="section-head"><div class="eyebrow">Certificates & Achievements</div><h2>Learning Credentials</h2><p class="section-intro">Certificates of completion issued by HP LIFE. Select “View certificate” to open the original PDF.</p></div>
+      <div class="cert-grid">
+        <article class="cert"><div class="cert-icon">PDF</div><div><h3>Critical Thinking in the AI Era</h3><p>HP LIFE · Presented 28 April 2026</p><a href="critical-thinking-in-the-ai-era.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></article>
+        <article class="cert"><div class="cert-icon">PDF</div><div><h3>AI for Business Professionals</h3><p>HP LIFE · Presented 28 April 2026</p><a href="ai-for-business-professionals.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></article>
+        <article class="cert"><div class="cert-icon">PDF</div><div><h3>Business Email</h3><p>HP LIFE · Presented 28 April 2026</p><a href="business-email.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></article>
+        <article class="cert"><div class="cert-icon">PDF</div><div><h3>Professional Networking for Career Growth</h3><p>HP LIFE · Presented 2 March 2026</p><a href="professional-networking-for-career-growth.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></article>
+        <article class="cert"><div class="cert-icon">PDF</div><div><h3>Unique Value Proposition</h3><p>HP LIFE · Presented 11 November 2026</p><a href="unique-value-proposition.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></article>
+      </div>
+      <div class="note">More certificates, design samples, work experience and profile links can be added later. This portfolio currently presents you as a fresher in graphic design and an IHT Laboratory Medicine student completing an internship.</div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head"><div class="eyebrow">Get in Touch</div><h2>Let's connect.</h2><p class="section-intro">For professional communication, networking or collaboration.</p></div>
+      <div class="contact-box"><div><h3 style="margin:0 0 8px">Nayon Roy</h3><div style="color:var(--muted)">Khulna, Bangladesh</div><div style="margin-top:8px"><a href="mailto:nayonroy112233@gmail.com">nayonroy112233@gmail.com</a></div><div><a href="tel:+8801923398225">+880 1923-398225</a> · <a href="https://wa.me/8801575855668" target="_blank" rel="noopener">WhatsApp</a></div></div><a class="btn" href="mailto:nayonroy112233@gmail.com">Email Me ↗</a></div>
+      <div class="socials"><a href="https://www.facebook.com/nayon.NR.roy" target="_blank" rel="noopener">Facebook ↗</a><a href="https://www.instagram.com/nayon.r_3029/" target="_blank" rel="noopener">Instagram ↗</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Nayon Roy. All rights reserved.</span><span>Designed with purpose · Built for growth</span></div></footer>
+  <script>
+    const profiles={
+      design:{lead:'A creative-minded graphic design fresher with around one year of learning and practice, ready to grow through real-world projects.',role:'Graphic Designer · Fresher',tags:['Photoshop','Illustrator','Canva','Visual Design'],title:'Creative thinking, visual ideas.',about:'I have been learning and practising graphic design for around one year. I am a fresher with no professional client projects yet, and I am eager to develop my skills, create meaningful visuals and gain professional experience.',detailTitle:'Graphic Design Profile',detailCardTitle:'Skills & Tools',rows:[['Software','Adobe Photoshop, Adobe Illustrator, Canva'],['Design areas','Logo, banner, poster, social media design, photo editing'],['Experience','Fresher · Around 1 year of learning and practice']],approach:'I enjoy exploring visual ideas and learning how design can communicate clearly. I am currently building my portfolio and looking forward to opportunities to grow through real projects.',features:[['01','Design & Creativity','Interested in creating clear, engaging and visually consistent designs.'],['02','Design Tools','Adobe Photoshop, Adobe Illustrator and Canva.'],['03','Design Areas','Logo, banner, poster, social media design and photo editing.']]},
+      lab:{lead:'A Laboratory Medicine student at the Institute of Health Technology, currently completing an internship.',role:'Laboratory Medicine Student · Intern',tags:['Laboratory Medicine','IHT Tungipara','Internship'],title:'Learning through science and practice.',about:'I am studying Laboratory Medicine at the Institute of Health Technology (IHT), Tungipara, Gopalganj, and currently completing my internship. I am continuing to develop my academic knowledge and practical laboratory experience.',detailTitle:'Laboratory Medicine Profile',detailCardTitle:'Academic & Practical Background',rows:[['Institute','Institute of Health Technology (IHT), Tungipara, Gopalganj'],['Department','Laboratory Medicine'],['Batch / Stage','4th Batch · Internship ongoing']],approach:'My education and internship are ongoing. I am focused on strengthening my theoretical understanding, laboratory practices, accuracy, safety awareness and professional skills.',features:[['01','Academic Learning','Currently pursuing studies in Laboratory Medicine at IHT.'],['02','Internship','Completing the internship stage as part of my ongoing education.'],['03','Professional Growth','Continuously developing laboratory knowledge and practical skills.']]}
+    };
+    function switchProfile(key){const p=profiles[key];document.getElementById('designTab').classList.toggle('active',key==='design');document.getElementById('labTab').classList.toggle('active',key==='lab');document.getElementById('designTab').setAttribute('aria-selected',key==='design');document.getElementById('labTab').setAttribute('aria-selected',key==='lab');['heroLead','cardRole','aboutTitle','aboutText','detailTitle','detailCardTitle','approachText'].forEach((id,i)=>{const vals=[p.lead,p.role,p.title,p.about,p.detailTitle,p.detailCardTitle,p.approach];const el=document.getElementById(id);el.classList.remove('fade');void el.offsetWidth;el.textContent=vals[i];el.classList.add('fade')});document.getElementById('cardTags').innerHTML=p.tags.map(t=>`<span class="tag">${t}</span>`).join('');document.getElementById('detailList').innerHTML=p.rows.map(r=>`<div class="info-row"><span>${r[0]}</span><span>${r[1]}</span></div>`).join('');document.getElementById('featureGrid').innerHTML=p.features.map(f=>`<article class="card"><div class="icon">${f[0]}</div><h3>${f[1]}</h3><p>${f[2]}</p></article>`).join('');}
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
